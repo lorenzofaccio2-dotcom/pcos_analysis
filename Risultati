@@ -1,3 +1,12 @@
+Dall’analisi dei risultati emerge che i modelli più complessi, come Random Forest e XGBoost, raggiungono le migliori performance complessive in termini di accuracy, F1 score e AUC, confermando la loro capacità di catturare relazioni non lineari tra le variabili del dataset.
+
+La Logistic Regression e il Naive Bayes mostrano valori di recall relativamente alti per la classe positiva, ma una precision più bassa, evidenziando che predicono correttamente molti casi positivi ma con un numero maggiore di falsi positivi.
+
+L’uso di SMOTE ha permesso di bilanciare le classi, migliorando la stabilità delle metriche per la classe minoritaria. Lo stacking classifier conferma che la combinazione di diversi modelli può ottenere metriche competitive, ma non sempre supera i migliori singoli modelli come Random Forest o XGBoost.
+
+In generale, i risultati suggeriscono che per predire la presenza di PCOS nel dataset analizzato, i modelli basati su ensemble tree-based rappresentano la scelta più affidabile.
+
+
 # Risultati Modelli PCOS
 
 Questo file riassume le performance dei modelli di machine learning applicati al dataset PCOS.
