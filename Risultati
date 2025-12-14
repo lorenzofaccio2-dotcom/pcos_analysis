@@ -1,0 +1,60 @@
+# Risultati Modelli PCOS
+
+Questo file riassume le performance dei modelli di machine learning applicati al dataset PCOS.
+
+## Logistic Regression
+- Accuracy: 0.771
+- Precision: 0.604
+- Recall: 0.889
+- F1 Score: 0.719
+- AUC: 0.896
+
+
+
+## Random Forest
+- Accuracy: 0.927
+- Precision: 0.938
+- Recall: 0.833
+- F1 Score: 0.882
+- AUC: 0.944
+
+
+
+## Naive Bayes
+- Accuracy: 0.780
+- Precision: 0.607
+- Recall: 0.944
+- F1 Score: 0.739
+- AUC: 0.928
+
+
+
+## XGBoost
+- Accuracy: 0.927
+- Precision: 0.868
+- Recall: 0.917
+- F1 Score: 0.892
+- AUC: 0.952
+
+
+## AdaBoost
+- Accuracy: 0.917
+- Precision: 0.865
+- Recall: 0.889
+- F1 Score: 0.877
+- AUC: 0.951
+
+
+
+
+## Stacking Classifier (cv interni)
+| CV interno | Recall | Precision | F1 Score | AUC   |
+|------------|--------|-----------|----------|-------|
+| 3          | 0.833  | 0.857     | 0.845    | 0.949 |
+| 5          | 0.861  | 0.969     | 0.912    | 0.956 |
+| 7          | 0.833  | 0.909     | 0.870    | 0.956 |
+| 10         | 0.861  | 0.886     | 0.873    | 0.953 |
+
+> Nota: Classi bilanciate con SMOTE, metriche calcolate sul test set.
+
+
